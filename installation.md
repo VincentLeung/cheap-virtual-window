@@ -1,11 +1,11 @@
 # cheap-virtual-window
 A cheap version of virtual window
 
-# <span>Installation steps</span>
+# Installation steps
 
-## <span>Site A</span>
+## Site A
 
-### <span>Hardware</span>
+### Hardware
 
 1.  <span>Standard connection of Pi Camera module</span>
 2.  <span>Servos</span>
@@ -16,6 +16,7 @@ A cheap version of virtual window
 4.  <span>Ground of external power connect to GND pin on Pi</span>
 
 <img src='https://github.com/VincentLeung/cheap-virtual-window/raw/master/images/usb2dupont.jpg' width=76 height=102/>
+(usb to dupont cable)
 <img src='https://github.com/VincentLeung/cheap-virtual-window/raw/master/images/piGpioPin.png' width=80 height=55/>
 (GPIO pin assignment on Pi)
 
