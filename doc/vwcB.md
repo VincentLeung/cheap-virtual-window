@@ -10,7 +10,7 @@
 5. Configuration on `client/index.html`
   1. Change the `src` of the `iframe` if necessary.  It is a url to the Mjpg-Streamer of the Pi
 6. Client configuration can change on UI
-  1. (default value stored in `server/lib/routes/socket.js`)[<img src='assets/parameters.png' width='76' height='102'>UI Parameters](assets/parameters.png)
+  1. (default value stored in `server/lib/routes/socket.js`)[<img src='assets/parameters.png' width='93' height='88'>UI Parameters](assets/parameters.png)
     1. Face tracking camera
       * camWidth: 320
       * camHeigh: 240
