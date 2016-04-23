@@ -32,7 +32,7 @@ Headless installation (i.e. no keyboard, mouse, and monitor attached to the pi)
   * `source ~/.profile`
 9. Update the config file (`/etc/wpa_supplicant/wpa_supplicant.conf`) for wifi access
   * Append the block like below
-`
+  ```
 network={
 ssid="Your Wireless Network Name"
 psk="Your Wireless Password"
@@ -48,8 +48,7 @@ pairwise=CCMP
 #Authorization option should be OPEN for both WPA1/WPA2 (in less commonly used are SHARED and LEAP)
 auth_alg=OPEN
 }
-`
-
+  ```
 10. Run raspi-config to change configuration
   1. sudo raspi-config
   2. 1. Expand Filesystem
