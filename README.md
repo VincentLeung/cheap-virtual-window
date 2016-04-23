@@ -1,5 +1,5 @@
 # Cheap Virtual Window
-A cheap version of virtual window
+A cheap version of virtual window, use local face tracking to controll the remote camera rig
 
 #Hardware Configuration
 Site A
