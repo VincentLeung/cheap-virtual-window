@@ -7,7 +7,9 @@
 5. [Cheap Virtual Window - Site A](vwcA.md)
 
 ##Site B
-1. [Cheap Virtual Window - Site B](vwcB.md)
+1. [NodeJS](https://nodejs.org/en/)
+2. [OpenCV](http://opencv.org/)
+3. [Cheap Virtual Window - Site B](vwcB.md)
 
 ##Netowkring
 1. [Networking](network.md)
