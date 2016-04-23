@@ -1,6 +1,6 @@
 #Installation steps
 ##Site A
-1. [Hardware](hardware.md)
+1. [Hardware](hardwarAe.md)
 2. [Raspbian](raspbian.md)
 3. [Mjpg-Streamer](mjpg-streamer.md)
 4. [ServoBlaster](servoBlaster.md)
