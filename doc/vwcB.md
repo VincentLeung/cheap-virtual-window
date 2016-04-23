@@ -9,7 +9,7 @@
   2. Change the `dataServerUrl` if necessary
 5. Configuration on `client/index.html`
   1. Change the `src` of the `iframe` if necessary.  It is a url to the Mjpg-Streamer of the Pi
-6. Client configuration can change on UI (default value stored in server/lib/routes/socket.js)
+6. Client configuration can change on UI (default value stored in `server/lib/routes/socket.js`)
   1. Face tracking camera
     * camWidth: 320
     * camHeigh: 240
@@ -23,4 +23,4 @@
 7. Start the server by node
   * `node server.js`
 8. Start the client by browser like Chrome, and go to the below url (change the url port number if the it is changed on step 4b)
-http://localhost:18080
+  * http://localhost:18080
