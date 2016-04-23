@@ -15,10 +15,12 @@ Site B
 
 To Do
 
-1. Site B watching the video streaming from Site A
-2. Site B uses face tracking to pan/tilt the camera on Site A
+1. Site B watching the video streaming from Site A (640 x 480 @60pfs)
+2. Site B uses face tracking (default: 10 per second) to pan/tilt the camera on Site A
 
 #Use Cases
 
 1. Monitor your cat at home when you are working in your office
 2. Watching your closet/bed when you are working hard for money in your office
+
+[Installation steps](doc/installation.md)
