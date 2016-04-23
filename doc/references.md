@@ -16,9 +16,10 @@
 ##Camera rig movement
 
 1. http://www.instructables.com/id/Pan-Tilt-face-tracking-with-the-raspberry-pi/?ALLSTEPS
-2. http://computers.tutsplus.com/tutorials/how-to-build-a-wireless-pi-camera-pan-and-tilt-platform--mac-57052
-3. https://github.com/drejkim/face-detection-node-opencv
-4. http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python
+2. https://github.com/richardghirst/PiBits/tree/master/ServoBlaster
+3. http://computers.tutsplus.com/tutorials/how-to-build-a-wireless-pi-camera-pan-and-tilt-platform--mac-57052
+4. https://github.com/drejkim/face-detection-node-opencv
+5. http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python
 
 ##Video streaming
 
@@ -38,6 +39,7 @@
 ##Web based video streaming viewer
 
 1. https://www.danpurdy.co.uk/web-development/raspberry-pi-kiosk-screen-tutorial/
+    * Note to use option `--disable-infobars option`, some info from the comments
 2. http://www.techrepublic.com/article/five-tips-for-getting-the-most-out-of-a-raspberry-pi-3-as-a-pc/
 
 ##Send/Receive head tracking data
