@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1"/>
+  <title>Virtual Window (cheap edition)</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1>Virtual Window (cheap edition)</h1>
+  <div>
+    <span>Face detection cam spec:</span>
+    <form name="specForm">
+      Cam width:<br>
+      <input type="text" name="camWidth" id="camWidth"><br>
+      Cam height:<br>
+      <input type="text" name="camHeight" id="camHeight"><br>
+      Cam fps:<br>
+      <input type="text" name="camFps" id="camFps"><br>
+      Face movement X tolerance (% of cam width):<br>
+      <input type="text" name="tolerancePctX" id="tolerancePctX"><br>
+      Face movement Y tolerance (% of cam height):<br>
+      <input type="text" name="tolerancePctY" id="tolerancePctY"><br>
+      Flip Horizontal:<br>
+      <input type="radio" name="flipHorizontal" id="flipHorizontal" value="yes"> Yes<br>
+      <input type="radio" name="flipHorizontal" id="flipHorizontal" value="no"> No<br>
+      Flip Vertical:<br>
+      <input type="radio" name="flipVertical" id="flipVertical" value="yes"> Yes<br>
+      <input type="radio" name="flipVertical" id="flipVertical" value="no"> No<br>
+      <button type="button" id="updateSpec">Update</button>
+    </form>
+    <span id="spec"></span>
+  </div>
+  <div class="container center flip-horizontal">
+    <canvas id="canvas-video" width="640" height="480"></canvas>
+  </div>
+  
+  <div class="center">
+    <!-- url of the mjpg-streamer on site A -->
+  	<iframe src="http://192.168.1.7:8080/?action=stream" class="stream-video"></iframe>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
