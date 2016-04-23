@@ -15,9 +15,7 @@ A cheap version of virtual window
 3.  <span>Vin and ground of Servo 0, and 1 connect to external power (e.g. using usb to dupont cable)</span>
 4.  <span>Ground of external power connect to GND pin on Pi</span>
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 183.50px; height: 243.01px;">![thumb_IMG_3408_1024.jpg](images/usb2dupont.jpg)</span><span>(usb to dupont cable)</span>
-
-![](images/piGpioPin.png)
+<img src='https://github.com/VincentLeung/cheap-virtual-window/raw/master/images/usb2dupont.jpg' width=76 height=102/>
 <img src='https://github.com/VincentLeung/cheap-virtual-window/raw/master/images/piGpioPin.png' width=80 height=55/>
 (GPIO pin assignment on Pi)
 
