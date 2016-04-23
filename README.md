@@ -23,5 +23,6 @@ To Do
 1. Monitor your cat at home when you are working in your office
 2. Watching your closet/bed when you are working hard for money in your office
 
-[Demo](doc/assets/demo1.mp4)
-[Installation steps](doc/installation.md)
+#Documentation
+1. [Demo](doc/assets/demo1.mp4)
+2. [Installation steps](doc/installation.md)
