@@ -27,3 +27,4 @@ To Do
 #Documentation
 1. [Demo](doc/assets/demo1.mp4)
 2. [Installation steps](doc/installation.md)
+3. [References](doc/references.md)
