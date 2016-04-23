@@ -6,7 +6,8 @@ Site A
 
 1. Raspberry Pi, with
   1. Pi camera module
-  2. Pan/Tilt bracket with 2 servos
+  2. Pan/Tilt bracket
+  3. Micro servos x2
 
 Site B
 
