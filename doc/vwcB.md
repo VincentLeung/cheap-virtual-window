@@ -4,11 +4,11 @@
   * `cd server`
 3. Install the package by npm
   * `npm install`
-4. Configuration on server/lib/config/server.js
-  1. Change the httpPort if necessary
-  2. Change the dataServerUrl if necessary
-5. Configuration on client/index.html
-  1. Change the src of the iframe if necessary.  It is a url to the Mjpg-Streamer of the Pi
+4. Configuration on `server/lib/config/server.js`
+  1. Change the `httpPort` if necessary
+  2. Change the `dataServerUrl` if necessary
+5. Configuration on `client/index.html`
+  1. Change the `src` of the `iframe` if necessary.  It is a url to the Mjpg-Streamer of the Pi
 6. Client configuration can change on UI (default value stored in server/lib/routes/socket.js)
   1. Face tracking camera
     * camWidth: 320
