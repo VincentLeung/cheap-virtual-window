@@ -21,7 +21,7 @@
 5. Run the Mjpg-Streamer if it is not started
     * Follow the command on Try it section of [Install and Setup Mjpg-Streamer](mjpg-streamer.md), start it with the following spec
       * start it with this spec (640 x 480, @60 fps)
-6. Fine tune on dataServer.js
-    1. Find the boundary values of the camera rig and set them on minX, maxX, minY, and maxY
-    2. Change the xServoId and yServoId if necessary
-    3. Change the listenPort if necessary
+6. Fine tune on `dataServer.js`
+    1. Find the boundary values of the camera rig and set them on `minX`, `maxX`, `minY`, and `maxY`
+    2. Change the `xServoId` and `yServoId` if necessary
+    3. Change the `listenPort` if necessary
