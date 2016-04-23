@@ -17,6 +17,7 @@
 
 1. http://www.instructables.com/id/Pan-Tilt-face-tracking-with-the-raspberry-pi/?ALLSTEPS
 2. https://github.com/richardghirst/PiBits/tree/master/ServoBlaster
+    * can send command to servoBlaster like: `echo 0=X > /dev/servoblaster`, where 0 is servo id, X is the value.  E.g. `echo 0=180 > /dev/servoblaster`
 3. http://computers.tutsplus.com/tutorials/how-to-build-a-wireless-pi-camera-pan-and-tilt-platform--mac-57052
 4. https://github.com/drejkim/face-detection-node-opencv
 5. http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python
