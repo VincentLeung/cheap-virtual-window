@@ -17,7 +17,7 @@ A cheap version of virtual window
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 183.50px; height: 243.01px;">![thumb_IMG_3408_1024.jpg](images/usb2dupont.jpg)</span><span>(usb to dupont cable)</span>
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 471.23px; height: 322.50px;">![RP2_Pinout.png](images/piGpioPin.png)</span><span>(GPIO pin assignment on Pi)</span>
+<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 471.23px; height: 322.50px;">![RP2_Pinout.png](images/piGpioPin.png =80x55)</span><span>(GPIO pin assignment on Pi)</span>
 
 1.  <span>Try it, based on Try it of</span> <span class="c5">[Install and Setup ServoBlaster](#h.an82c5vrwfae)</span><span> below</span>
 
