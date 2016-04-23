@@ -91,10 +91,10 @@ auth_alg=OPEN
     * `http://192.168.1.7:8080/`
 7. Start it after boot, and capture 640x480 resolution at 60fps
   1. Create a script file `~/start_mjpg_streamer.sh` with the following content
-```
+  ```
 #!/bin/sh
 mjpg_streamer -b -o "output_http.so -w /usr/local/www" -i "input_raspicam.so -x $1 -y $2 -fps $3"
-```
+  ```
   2. Change the mode of the file to 755
     * `chmod 755 ~/start_mjpg_streamer.sh`
   3. Append the following line to the `~/.profile`
