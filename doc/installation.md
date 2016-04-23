@@ -90,14 +90,25 @@ auth_alg=OPEN
   4. Start a browser and visit the url below (change the ip if necessary)
     * `http://192.168.1.7:8080/`
 7. Start it after boot, and capture 640x480 resolution at 60fps
-  1. Create a script file `~/start_mjpg_streamer.sh` with the following content
+  * Create a script file `~/start_mjpg_streamer.sh` with the following content
   ```
 #!/bin/sh
 mjpg_streamer -b -o "output_http.so -w /usr/local/www" -i "input_raspicam.so -x $1 -y $2 -fps $3"
   ```
-  2. Change the mode of the file to 755
+  * Change the mode of the file to 755
     * `chmod 755 ~/start_mjpg_streamer.sh`
-  3. Append the following line to the `~/.profile`
+  * Append the following line to the `~/.profile`
     * `~/start_mjpg_streamer.sh 640 480 60`
 
-
+###Install and Setup ServoBlaster
+1. Download and unzip ServoBlaster
+  * `wget https://github.com/richardghirst/PiBits/zipball/master`
+  * `unzip master`
+2. Make it
+  * `cd richardghirst-PiBits-96014c8/ServoBlaster/user`
+  * `sudo make install`
+  * Note: `idle-timeout` on `/etc/init.d/servoblaster` is an important variable, may need reboot to take effect.
+3. Try it
+  * Write the `<servo id>=<value>` to `/dev/servoblaster`
+    * E.g. `echo 0=180 > /dev/servoblaster`
+    * E.g. `echo 1=180 > /dev/servoblaster`
