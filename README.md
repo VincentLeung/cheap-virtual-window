@@ -1,10 +1,7 @@
 # Cheap Virtual Window
 A cheap version of virtual window, use local face tracking to controll the remote camera rig.
 
-##Demo
-
-1. [Demo file](doc/assets/demo1.mp4)
-2. [Demo on YouTube](https://youtu.be/oXDktCQ-SO4)
+[Demo on YouTube](https://youtu.be/oXDktCQ-SO4)
 
 #Hardware Configuration
 Site A
