@@ -10,7 +10,7 @@
   5. Try it, based on Try it of Install and Setup ServoBlaster below
 
 #Parts
-1. [<img src='assets/microServo.jpg' width='102' height='76'>Micro Servos](assets/microServo.jpg)
+1. [<img src='assets/microServo.jpg' width='102' height='76'>Micro Servos (red is Vin, brown is ground, orange is singal](assets/microServo.jpg)
 2. [<img src='assets/bracketParts.jpg' width='102' height='76'>Bracket Parts](assets/bracketParts.jpg)
 3. [<img src='assets/bracket.jpg' width='76' height='102'>Bracket with Servos](assets/bracket.jpg)
 4. [<img src='assets/bracketWithPiCam.jpg' width='76' height='102'>Micro Servos](assets/bracketWithPiCam.jpg)
