@@ -14,7 +14,7 @@ Site B
 1. Notebook, with
   1. Webcam
 
-To Do
+#To Do
 
 1. Site B watching the video streaming from Site A (640 x 480 @60pfs)
 2. Site B uses face tracking (default: 10 per second) to pan/tilt the camera on Site A
