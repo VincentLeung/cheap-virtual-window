@@ -1,4 +1,4 @@
-# Cheap Virtual Window
+# Cheap Virtual Window (JavaScript based)
 A cheap version of virtual window, use local face tracking to controll the remote camera rig.
 
 [Demo on YouTube](https://youtu.be/oXDktCQ-SO4)
