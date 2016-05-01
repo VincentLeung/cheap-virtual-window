@@ -12,7 +12,7 @@
     * source ./profile
     * node -v
     * npm -v
-2. Download or clone this repo (cheap-virtual-window)
+2. [Download](https://github.com/VincentLeung/cheap-virtual-window/archive/master.zip) or clone this repo (cheap-virtual-window)
 3. Download package dependencies
     * `cd vwc/dataServer`
     * `npm install`
