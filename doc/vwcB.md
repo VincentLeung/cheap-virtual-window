@@ -1,5 +1,5 @@
 #Install and Setup VMC Server and Client
-1. Download or clone this repo (cheap-virtual-window)
+1. [Download](https://github.com/VincentLeung/cheap-virtual-window/archive/master.zip) or clone this repo (cheap-virtual-window)
 2. Start a command prompt and change to server directory
   * `cd server`
 3. Install the package by npm
