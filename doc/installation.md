@@ -8,7 +8,7 @@
 
 ##Site B
 1. [NodeJS](https://nodejs.org/en/)
-2. [OpenCV on Mac](opencvMac.md) [Official OpenCV site](http://opencv.org/)
+2. [OpenCV on Mac](opencvMac.md) ([Official OpenCV site](http://opencv.org/))
 3. [Cheap Virtual Window - Site B](vwcB.md)
 
 ##Netowkring
