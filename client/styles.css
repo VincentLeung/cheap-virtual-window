@@ -1,5 +1,5 @@
 .container {
-  padding-top: 10px;
+  position: relative;
 }
 
 .center {
@@ -7,9 +7,13 @@
 }
 
 #canvas-video {
-  width: 320px;
-  height: 240px;
+  width: 160px;
+  height: 120px;
   border: 1px solid #ccc;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .flip-horizontal {
@@ -24,4 +28,23 @@
   width: 640px;
   height: 480px;
   border: 1px solid #ccc;
+}
+
+.panelContainer {
+  display: table;
+  width: 100%;
+}
+
+.panelLeft,
+.panelRight {
+  display: table-cell;
+  vertical-align: middle;  
+}
+
+.panelLeft {
+  width: 40%;
+}
+
+.panelRight {
+  width: 60%;
 }
