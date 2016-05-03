@@ -49,3 +49,7 @@
 2. http://www.robert-drummond.com/2015/01/08/server-side-javascript-on-a-raspberry-pi-how-to-install-node-js-2/
     * Update the NodeJS, need to fix the npm issue by execute
       * `curl -0 -L http://npmjs.org/install.sh | sudo sh`
+
+##OpenCV
+
+1. http://www.learnopencv.com/install-opencv-3-on-yosemite-osx-10-10-x/
