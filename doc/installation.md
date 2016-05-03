@@ -7,8 +7,8 @@
 5. [Cheap Virtual Window - Site A](vwcA.md)
 
 ##Site B
-1. Download and install the installation from <a href="https://nodejs.org/en/download/" target="_blank">official NodeJS site</a>
-2. [OpenCV on Mac](opencvMac.md) (<a href="http://opencv.org/" target="_blank">Official OpenCV site</a>)
+1. Download and install from <a href="https://nodejs.org/en/download/" target="_blank">official NodeJS site</a>
+2. [OpenCV on Mac](opencvMac.md), for other platforms installation please refer to (<a href="http://opencv.org/" target="_blank">Official OpenCV site</a>)
 3. [Cheap Virtual Window - Site B](vwcB.md)
 
 ##Netowkring
